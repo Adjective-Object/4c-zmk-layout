@@ -85,11 +85,11 @@
 
         halfqwerty {
             bindings = <
-&BACKSPACE  &trans    &trans       &trans       &trans  &trans    &trans  &trans  &trans  &trans  &trans   &trans
-&ENTER      &kp P     &kp O        &kp I        &kp U   &kp Y     &kp T   &kp R   &kp E    &kp W   &kp Q   &kp ENTER
-&trans      &kp APOS  &kp SEMI     &kp L        &kp K   &kp J     &kp H   &kp G   &kp F    &kp D   &kp S   &kp A
-&trans      &kp SLASH &kp PERIOD   &kp COMMA    &kp M   &kp N     &kp B   &kp V   &kp C    &kp X   &kp Z   &kp RIGHT_SHIFT
-&trans      &trans    &trans       &trans       &trans                    &trans  &trans  &trans  &trans   &trans
+&kp BACKSPACE     &trans      &trans     &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans     &trans
+    &kp ENTER      &kp P       &kp O      &kp I   &kp U   &kp Y     &kp T   &kp R   &kp E   &kp W   &kp Q  &kp ENTER
+       &trans   &kp APOS    &kp SEMI      &kp L   &kp K   &kp J     &kp H   &kp G   &kp F   &kp D   &kp S      &kp A
+       &trans  &kp SLASH  &kp PERIOD  &kp COMMA   &kp M   &kp N     &kp B   &kp V   &kp C   &kp X   &kp Z     &trans
+       &trans     &trans      &trans     &trans  &trans                    &trans  &trans  &trans  &trans     &trans
             >;
         };
     };
